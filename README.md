@@ -15,8 +15,7 @@ A pesquisa concentrou-se na análise detalhada de quatro modelos principais, div
 Este script automatiza a recolha de respostas para os modelos comerciais (**ChatGPT, Claude e DeepSeek**), sendo ideal para execução em ambientes como o Google Colab.
 
 * **Chave API:** Localize a variável `api_key` ou `OPENROUTER_API_KEY` no script e insira a sua chave secreta do OpenRouter entre aspas.
-* **ID do Modelo:** Configure o identificador do modelo pretendido (ex: `"openai/gpt-4o"`, `"anthropic/claude-4.6-sonnet"` ou `"deepseek/deepseek-chat"`).
-* **Execução:** O script lê o ficheiro `.csv` de entrada, processa as perguntas e grava os resultados diretamente no ficheiro final correspondente (ex: `respostas_claude_exp9a16.csv`). Devido à integração da **retoma segura**, se a ligação cair, o código recomeça automaticamente a partir da última linha vazia, protegendo o saldo da API.
+* **Execução:** O script lê o ficheiro `.csv` de entrada, processa as perguntas e grava os resultados diretamente no ficheiro final correspondente (ex: `respostas_claude_exp9a16.csv`). Devido à integração da **retoma segura**, se a ligação cair, o código recomeça automaticamente a partir da última linha vazia.
 
 ### 2. Abordagem Multi-Agente (CrewAI - Experimento 14)
 Para o ambiente de debate multi-agente (Redator vs. Advogado do Diabo) recorrendo às APIs do OpenRouter:
